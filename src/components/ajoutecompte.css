@@ -1,0 +1,153 @@
+ 
+  #form{
+    max-width: 320px;
+    width: 100vw;
+    margin: 2em auto;
+      }
+  
+  #form >  input{
+    display: inline-block;
+    border: 1px solid #e9ecef;
+    padding: .9em 1em;
+  }
+  #etu{
+    position: absolute;
+    left: 120px;
+    top: 100px;
+  }
+  #lab1{
+    position: absolute;
+    left: 150px;
+    top: 93px;
+  }
+  #ensi{
+    position: absolute;
+    left: 120px;
+    top: 70px;
+  }
+  #lab2{
+    position: absolute;
+    left: 150px;
+    top: 63px;
+  }
+  #nom{
+    position: absolute;
+    width: 300px;
+    left: 120px;
+    top: 150px;
+  }
+  #prenom{
+    position: absolute;
+    width: 300px;
+    left: 120px;
+    top: 230px;
+  }
+  #dateN{
+    position: absolute;
+    width: 300px;
+    left: 120px;
+    top: 310px;
+  }
+  
+  #phone{
+    position: absolute;
+    width: 300px;
+    left: 120px;
+    top: 390px;
+  }
+  #codeP{
+    position: absolute;
+    width: 300px;
+    left: 120px;
+    top: 470px;
+  }
+  #email{
+    position: absolute;
+    width: 300px;
+    left: 600px;
+    top: 230px;
+  }
+  #bac{
+    position: absolute;
+    width: 300px;
+    left: 600px;
+    top: 310px;
+  }
+  #inscrp{
+    position: absolute;
+    width: 300px;
+    left: 600px;
+    top: 390px;
+  }
+  #emploi{
+    position: absolute;
+    width: 300px;
+    left: 600px;
+    top: 470px;
+  }
+  #emploi{
+    position: absolute;
+    width: 300px;
+    left: 600px;
+    top: 470px;
+  }
+  #pw{
+    position: absolute;
+    width: 300px;
+    left: 600px;
+    top: 150px;
+  }
+
+  #form > input:focus{
+    outline: none;
+  }
+  
+  #form > .btn{
+    position: absolute;
+    background-color: #b8f3eb;
+    font-size: 1em;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    bottom: 30px;
+    left: 1000px;
+
+  }
+  
+  .flex{
+    display: flex;
+    gap: 1em;
+  }
+  
+  .flex-col{
+    flex-direction: column;
+  }
+  .custom-select {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 600px;
+    top: 30px;
+  }
+  .custom-select2{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 600px;
+    top: 90px;
+  }
+  .custom-select select {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background-color: #b8f3eb;
+    border: none;
+    border-radius: 5px;
+  }
+  .custom-select2 select {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background-color:#b8f3eb;
+    border: none;
+    border-radius: 5px;
+  }
